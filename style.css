@@ -27,10 +27,15 @@ body .container {
 .card span.category {
   padding: 40px 10px;
 }
+.card span.name {
+  font-weight: bolder;
+}
 .card img {
   width: 100%;
   height: 50%;
-  transition: 1s ease;
+}
+.card * {
+  padding: 10px 0;
 }
 
 input,
@@ -45,7 +50,7 @@ button {
   backdrop-filter: blur(5px) saturate(200%);
   -webkit-backdrop-filter: blur(5px) saturate(200%);
   background-color: #142d4c;
-  border-radius: 12px;
+  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
